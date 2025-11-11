@@ -1,0 +1,27 @@
+{
+    "name": "sudipta/helloworld",
+    "description": "A simple Hello World Laravel package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sudipta\\HelloWorld\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sudipta\\HelloWorld\\HelloWorldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Sudipta",
+            "email": "sudiptaghosh9136@gmail.com"
+        }
+    ],
+    "require": {}
+}
